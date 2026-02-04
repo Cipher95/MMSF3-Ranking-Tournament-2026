@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 { rank: 0, name: 'libero', mp: 0, w: 0, d: 0, l: 0, diff: 0, pts: 0, sf: 0 }
             ],
             matches: [
-              /* { p1:'Baguette', s1:1, p2:'Ryuken', s2:1 },
-  { p1:'Baguette', s1:0, p2:'Cipher', s2:2 },
-  { p1:'Baguette', s1:2, p2:'WolZardFire!', s2:0 },
+              /* { p1:'Baguette', s1:1, p2:'Ryuken', s2:1 },*/
+  { p1:'Baguette', s1:2, p2:'Cipher', s2:0 },
+ /* { p1:'Baguette', s1:2, p2:'WolZardFire!', s2:0 },
   { p1:'Baguette', s1:1, p2:'Thiago', s2:1 },
   { p1:'Baguette', s1:0, p2:'F-00', s2:1 }, */
   { p1:'Baguette', s1:1, p2:'libero', s2:1 },
