@@ -209,7 +209,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         schedule: {
             title: "Event Schedule",
-            image: "https://pm1.aminoapps.com/8389/351a4299a369e89a7ba8f64418c9e578af6bab05r1-755-1068v2_hq.jpg",
+            image: "og-image.webp",
             content: `
                 <ul>
                     <li><b>Week 1: Registration</b> - Player registration and folder submission begins.</li>
