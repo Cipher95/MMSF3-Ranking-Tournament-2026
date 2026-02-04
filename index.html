@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://e7.pngegg.com/pngimages/335/770/png-clipart-mega-man-star-force-3-symbol-star-polygons-in-art-and-culture-star-game-angle.png">
+    <title>MMSF3 Ranking Tournament 2026</title>
+
+    <!-- Google Fonts for a modern, bold feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="lang-selector">
+        <h1 id="lang-choose-title">To start press the start button</h1>
+        <div class="lang-buttons">
+            <center><button class="lang-btn" data-lang="en">Start</button></center>
+            <!-- <button class="lang-btn" data-lang="jp">日本語</button> -->
+        </div>
+    </div>
+
+    <div class="container" id="main-container" style="display: none;">
+        <header>
+            <div class="title">
+                <h1 id="main-title">The Ranking Tournament 2026</h1>
+            </div>
+            <div class="datetime">
+                <div id="clock"></div>
+                <div id="date-day"></div>
+            </div>
+        </header>
+
+        <nav>
+            <a href="#" class="nav-link active" data-page="about" id="nav-about">About</a>
+            <a href="#" class="nav-link" data-page="schedule" id="nav-schedule">Schedule</a>
+           <!-- <a href="#" class="nav-link" data-page="brackets" id="nav-brackets">Brackets</a>-->
+            <a href="#" class="nav-link" data-page="ranking" id="nav-ranking">Ranking</a>
+           <!-- <a href="#" class="nav-link" data-page="format" id="nav-format">Format</a> -->
+            <a href="#" class="nav-link" data-page="rules" id="nav-rules">Rules</a>
+        </nav>
+
+        <main id="content-area">
+            <!-- JavaScript will inject content here -->
+        </main>
+
+        <footer>
+            <p id="footer-text">This website is for demonstration purposes only. Mega Man Star Force is a property of Capcom.</p>
+        </footer>
+    </div>
+    
+    <audio id="bg-music" loop>
+        <source src="48 - Black Hole Server.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <button id="back-to-top-btn" title="Go to top">▲</button>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
+
