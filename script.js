@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   { p1:'Cipher', s1:2, p2:'WolZardFire!', s2:0 },
  /* { p1:'Cipher', s1:1, p2:'Thiago', s2:0 },
-  { p1:'Cipher', s1:1, p2:'F-00', s2:1 },
-  { p1:'Cipher', s1:3, p2:'libero', s2:1 },*/
+  { p1:'Cipher', s1:1, p2:'F-00', s2:1 }, */
+  { p1:'Cipher', s1:0, p2:'libero', s2:2 },
 
  /* { p1:'WolZardFire!', s1:1, p2:'Thiago', s2:1 },
   { p1:'WolZardFire!', s1:2, p2:'F-00', s2:0 },
